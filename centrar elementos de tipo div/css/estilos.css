@@ -1,0 +1,40 @@
+h1{
+    text-align:center;
+    color: crimson;
+    font-family: sans-serif;
+}
+div.absoluto{
+    /*usar porcentjes hace mas dianmico el diseño web(responsve desing)*/
+    width: 50%;
+    border: 3px solid firebrick;
+    margin:auto;
+    font-family: monospace;
+    /*-----------------------------------------------*/
+    /*position:static;/*este atributo es por default*/
+    /*si se aplica top lef right o bottom le da igual dibido apostion*/
+    /*-----------------------------------------------*/
+    /*position:relative;/*se movera de manera relativa la poscion de la etiqueta div*/
+    /*estas modificaciones solo afectana a la etiqueta*/
+    /*top:100px;
+    left:50px;
+    /*bottom:10px;*/
+    /*right: 50px;*/
+    /*-----------------------------------------------*/
+    /*position:fixed;
+    /*top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;*/
+    /*-----------------------------------------------*/
+    position:absolute;
+    bottom:20px;
+    right: 10px;
+}
+div.padre{
+    position:relative;
+    max-width:300px;
+    height: 200px;
+    top:10px;
+    left:100px;
+    border: 3px solid cornflowerblue;
+}

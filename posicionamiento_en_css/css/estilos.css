@@ -1,0 +1,11 @@
+body{
+    background: rgb(46,64,83);
+    color: rgb(218,247,166);
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.absoluto{
+    background: rgb(199,0,57);
+    color:rgb(255,195,0);
+}

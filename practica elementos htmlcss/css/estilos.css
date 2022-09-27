@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255,100,10);
+}
+div.contenedor{
+    position:relative;
+    border: 3px dashed yellowgreen;
+    width:30%;
+    margin: auto;
+
+}
+div.centro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,90,10);
+}
+img.imagen{
+    width:100%;
+    opacity: 0.5;
+}

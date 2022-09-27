@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.contenedor{
+    color: aliceblue;
+    border: 1px dashed yellow;
+    border-radius: 5px;
+    width:30%;
+    height: 100px;
+    overflow: auto;
+}
+div.contenedor.flotado{
+    float: left;
+}
+div.contenedor.flotado.contenedor1{
+    border: 1px dashed yellow;
+}
+div.contenedor.flotado.contenedor2{
+    border: 1px dashed cornflowerblue;
+    float: right;
+}
+div.contenedor.contenedor3{
+    clear: both;
+    border: 2px dashed salmon;
+    margin: auto;
+
+}

@@ -1,0 +1,38 @@
+
+h1{
+    text-align: center;
+    color:blueviolet;
+
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border:3px solid rgb(25,180,255);
+    padding: 15px;
+    color: rgb(25,100,230);
+    border-radius: 5px;
+    text-align: center;
+}
+div.contenedor:hover{
+    background-color: rgb(10,90,190);
+    color: rgb(200,200,200);
+
+}
+div.contenedor.oculto p{
+    display:none;
+
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    background-color:#a8dadc ;
+    color:#023e8A;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+div.contenedor.primero p:first-child{
+    font-variant: small-caps;
+
+}

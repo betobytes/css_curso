@@ -1,0 +1,41 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(20, 77, 137);
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin:auto;
+    border:3px dashed rgb(57, 119, 185);
+    
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border:1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    /*propiedad display*/
+    display: inline-block;
+}
+.menu{
+    list-style-type:none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63946;
+    border-radius: 5px;
+
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #f1faee;
+}

@@ -1,0 +1,56 @@
+/**{
+    margin:0;
+    padding:0;
+}*/
+
+h1{
+    text-align:center;
+    color:firebrick;
+}
+.caja1{
+    margin:30px;
+    border: 1px solid teal;
+    padding:10px 15px 5px 3px;
+    background-color:aquamarine;
+    max-width:300px;
+    box-sizing:border-box;
+}
+.caja2{
+    margin:20px;
+    border: 1px solid teal;
+    padding:10px 15px 5px 3px;
+    background-color:aquamarine;
+    max-width:300px;
+    box-sizing:border-box;
+}
+/*div{
+    padding:12px;
+    border-width: 1px;
+    border-color: teal;
+    border-style: solid;
+    margin:12px;
+    background-color:aquamarine;
+    /*width:300px;/* ahi que sumar el padding y el border
+    max-width:100%;
+    max-height:100px;
+    outline: 5px solid orange;
+    outline-offset:3px;
+    /* esto solciona poblemas de suma de pixeles con padding y border
+    box-sizing:border-box;
+}*/
+/*div{
+    /*usando margin auto se centra
+    /*margin-left:100px;
+    /*margin: 0 auto;----esto aplica 0 arriba abajo auto L,R
+    margin:20px;
+    border: 1px solid teal;
+    padding:10px 15px 5px 3px;
+    background-color:aquamarine;
+    max-width:300px;
+    box-sizing:border-box;
+}*/
+/*
+p.interno{
+    margin-left:inherit;
+}*/
+ 

@@ -1,0 +1,34 @@
+
+h1, div, p{
+    border:3px solid rgb(10,255,240);
+    text-align:center;
+    font-family:monospace;
+    color: rgb(0,0,50);
+    padding:10px;
+    display:block;
+    
+}
+/*las propiedades se pueden sobreescirbir*/
+h1{
+    /*display tambien nos sirve para ocultar etiquetas html*/
+    display:None;
+}
+p{
+/*tambien podemos hacer invisibles las etiquetas en html*/
+    visibility: hidden;
+}
+span{
+    display:block;
+    border: 1px solid cyan;
+}
+a{
+    font-family: sans-serif;
+    display:block;
+    color:rgb(3,40,70);
+   /* border: 1px solid rgb(0,0,50);*/
+    text-align:center;
+
+}
+li{
+    display: inline-block;
+}

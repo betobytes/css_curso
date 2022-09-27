@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color:orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+div.contenedor{
+    border:3px dashed greenyellow;
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    overflow:auto;
+    /*overflow:scroll;  (muestra el scroll en dos sentidos)*/
+    /*overflow:hidden; (oculta todo o qeu sale de elemento div)*/
+    /*la propiedad overflow por default es visible*/
+}

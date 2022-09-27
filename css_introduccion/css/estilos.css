@@ -1,0 +1,11 @@
+*{
+    background-color: #282828;
+    
+}
+h1,h2,p{
+    color:greenyellow;
+}
+p.colorear{
+    text-align:center;
+    color:rgb(250,40,100);
+}

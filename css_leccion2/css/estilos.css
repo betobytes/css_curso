@@ -1,0 +1,62 @@
+
+h1{
+    text-align:center;
+}
+.rojo{
+    background-color: firebrick;
+    border:None;
+}
+.rosa{
+    background-color:hotpink;
+    border:hidden;
+}
+.amarillo{
+    background-color: gold;
+}
+.violeta{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: lime;
+}
+.azul{
+    background-color: turquoise;
+}
+.rojo, .rosa, .violeta{
+    color:white;
+}
+.marco-rojo{
+    /*border-style: 
+      border-color: 
+      border-width: */
+    border: medium inset firebrick;
+    border-radius: 20px;    
+}
+.marco-rosa{
+    border: thin double rgb(255, 105, 180);
+    border-radius: 5px;    
+}
+.marco-amarillo{
+    border: thick dotted #ffd700;
+    border-radius: 5px;    
+}
+.marco-violeta{
+    border: 5px dashed blueviolet;
+    border-radius: 5px;    
+}
+.marco-verde{
+    border: 5px ridge lime;
+    border-radius: 5px;    
+}
+.marco-azul{
+    border-color:turquoise;
+    border-style:groove;
+    border-width:10px 7px 10px 7px;
+    border-radius: 5px;    
+}
+.marco-mixto{
+    border-style:double;
+    border-width: medium thick medium thin;
+    border-color: hotpink gold turquoise lime;
+    border-radius: 5px 7px 3px 2px;
+}
